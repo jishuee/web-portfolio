@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	background-image: url(background.jpg);
+}
+nav ul
+{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	
+}
+li{
+	list-style: none;
+	background: transparent;
+}
+nav a
+{
+background: transparent;
+text-decoration: none;
+color: white;
+}
+nav a:hover
+{
+	text-decoration: underline;
+	color: white;
+}
+nav{
+	background: transparent;
+}

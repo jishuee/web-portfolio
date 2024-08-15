@@ -55,6 +55,31 @@ list-style: none;
 box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; 
 border-radius: 10px;
 }
+#projects
+{
+   background-color: white;
+box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; 
+border-radius: 10px; 
+}
+
+#landing1
+
+  {
+   background-color: white;
+box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; 
+border-radius: 10px; 
+margin-bottom: 50px;
+margin-top: 100px;
+}  
+#myProject_id
+{
+    font-size: 50px;
+}
+#tools_id
+{
+     font-size: 50px;
+}
+
 
 #projects
 {

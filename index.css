@@ -1,17 +1,19 @@
 
 body {
-   background-color: whitesmoke;
+font-family: Platypi;
+   background-image: url(images/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 #navid{
 	position: sticky;
 }
-body {
-	font-family: Montserrat;
-}
+
 #image1{
 	height: 250px;
 	width: 300px;
 	margin-top: 50px;
+    border-radius: 80px;
 
 }
 
@@ -23,13 +25,16 @@ p{
 	font-size: ;
 }
 h4{
-	color: red;
+	color: black;
 	font-size: 40px;
 }
 img{
 	width: 250px;
-
+    height: 250px;
+    border-radius: 8px;
 }
+
+
 
 nav a:hover
 {
@@ -46,7 +51,11 @@ list-style: none;
 }
 #container1
 {
-	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+    background-color: white;
+box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; 
+border-radius: 10px;
+}
+
 #projects
 {
 	margin-bottom: 50px;
@@ -64,6 +73,88 @@ button
 	
 }
 
+#tools_id
+{
+    margin-top: 10px;
+}
+
+#zoom:hover{
+    background-color: transparent;
+    transform: scale(1.5);
+}
+#map
+{
+height: 250px;
+width: 250px;
+}
+
+#animate
+{
+    background-color: red;
+    animation: html 4s ease-in-out forwards;
+}
+
+#animate_2
+{
+
+    background-color: red;
+    animation: html2 4s ease-in-out forwards;
+
+}
+#animate_3
+{
+  background-color: red;
+    animation: html3 4s ease-in-out forwards;
+}
+#animate_4
+{
+  background-color: red;
+    animation: html3 4s ease-in-out forwards;
+}
+
+#animate_5
+{
+  background-color: red;
+    animation: html4 4s ease-in-out forwards;
+}
+
+#animate_6
+{
+  background-color: red;
+    animation: html5 4s ease-in-out forwards;
+}
+
+
+#animate_7
+{
+  background-color: red;
+    animation: html6 4s ease-in-out forwards;
+}
+
+
+#animate_8
+{
+  background-color: red;
+    animation: html7 4s ease-in-out forwards;
+}
+#animate_9
+{
+  background-color: red;
+animation: html10 4s ease-in-out forwards;
+}
+#animate_11
+{
+  background-color: red;
+animation: html11 4s ease-in-out forwards;
+}
+#animate_12
+{
+  background-color: red;
+animation: html12 4s ease-in-out forwards;
+}
+
+
+
 
 
 .wrapper.one {
@@ -71,10 +162,10 @@ button
 }
 .drop-main {
     display: flex;
-    font-size: 4rem;
-  
+    font-size: 2rem;
+    color: red;
     justify-content: center;
-    font-family: "Russo One", sans-serif;
+    font-family: "Platypi", sans-serif;
 }
 .j {
     opacity: 0;
@@ -107,6 +198,8 @@ button
     animation: drop 0.4s linear forwards 0.8s;
     
 }
+
+
 @keyframes drop {
     0% {
         transform: translateY(-200px);
@@ -129,3 +222,121 @@ button
         opacity: 1;
     }
 }
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 80%;
+    }
+}
+
+
+@keyframes html2{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 80%;
+    }
+}
+
+@keyframes html3{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+
+@keyframes html4{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+@keyframes html5{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes html6{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes html7{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+@keyframes html8{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes html10{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 80%;
+    }
+}
+@keyframes html11{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+@keyframes html12{
+    0%{
+        width: 0;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

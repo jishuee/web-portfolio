@@ -138,6 +138,7 @@ h3:hover
 .example
 {
  	
+ 	border-radius: 10px;
 	margin-bottom: 20px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -162,4 +163,34 @@ h3:hover
         flex: 0 0 100%; /* Full width for one column */
    		margin-right: 50px;
     }
+}
+
+h6
+{
+	font-family: Kanit;
+	font-weight: bold;
+}
+.div_unique
+{
+	margin-bottom: 10px;
+	max-width: 500px;
+
+}
+#uniqueitems1
+{
+	display: inline-block;  
+	margin-top: 10px;
+	text-align: center;
+
+}
+#uniqueitems1 h1
+{
+	color: black;
+	font-size: 85px;
+	margin-left: 100px;
+}
+#uniqueitems1
+{
+	font-family: Grey Qo;
+	font-size: 100px;
 }

@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.capsule-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Overlay Text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 13rem; /* Large font to cover the capsules */
+    font-weight: bold;
+    color: black; /* Black text */
+    text-transform: uppercase;
+    z-index: 10; /* Ensure text appears above capsules */
+    opacity: 1; /* Fully opaque */
+    pointer-events: none;
+    white-space: nowrap; /* Prevent text wrapping */
+    line-height: 1; /* Compact line height */
+}
+
+/* Capsule Container */
+.capsule-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align capsules at the top */
+    gap: 10px; /* Spacing between capsules */
+    position: relative;
+    z-index: 5; /* Ensure capsules appear behind text */
+    padding-right: 50px; /* Add margin on the right side */
+}
+
+/* Capsule Items */
+.capsule-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* Spacing between capsules */
+}
+
+/* Capsule Design */
+
+
+.capsule img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.capsule:hover {
+    transform: scale(1.05); /* Slightly enlarge the capsule */
+}
+
+.capsule:hover img {
+    transform: scale(1.1); /* Zoom the image inside */
+}
+
+/* Capsule Title */
+.capsule-title {
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
